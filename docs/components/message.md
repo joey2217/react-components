@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Message
 
+简易消息组件
+
 [Demo](/message)
 
 ## 实现
@@ -78,6 +80,8 @@ export function MessageProvider({ children }: PropsWithChildren) {
   )
 }
 ```
+
+## 使用
 
 ```tsx
 import React from 'react'
