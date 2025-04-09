@@ -1,0 +1,68 @@
+:root {
+  --border: oklch(0.922 0 0);
+}
+
+.rc-picker-panel {
+  background-color: white;
+}
+.rc-picker-date-panel .rc-picker-cell-inner {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+}
+
+.rc-picker-footer,
+.rc-picker-picker-footer {
+  background: white;
+}
+
+.rc-picker-input {
+  border-color: var(--border);
+  font-size: 14px;
+}
+.rc-picker-input > input {
+  padding: 0 8px;
+}
+.rc-picker-dropdown {
+  @apply shadow-lg;
+}
+.rc-picker-datetime-panel .rc-picker-time-panel {
+  border-color: var(--border);
+}
+.rc-picker-panel {
+  border-color: var(--border);
+}
+.rc-picker-time-panel-column::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.rc-picker-time-panel-column::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.rc-picker-time-panel-column::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.rc-picker-time-panel-column::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.rc-picker {
+  border: 1px solid blue;
+}
+.rc-picker-dropdown {
+  font-size: 14px;
+}
+.rc-picker-ranges > li,
+.rc-picker-ranges > li button {
+  cursor: pointer;
+}
+.rc-picker-ranges {
+  padding: 8px 16px;
+}
+.rc-picker-clear {
+  top: 2px;
+}
